@@ -1,5 +1,5 @@
 #gameover {
-    text-align: ceter;
+    text-align: center;
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,6 @@
 }
 
 #gameover img {
-    margin: 2rem;
+    margin: 2rem auto;
     height: 200px;
 }

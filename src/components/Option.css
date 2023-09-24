@@ -23,5 +23,9 @@
 
 .wrong {
     background-color: #3C0E70;
-    opacity: .4;
+    opacity: .5;
+}
+
+.hide {
+    display: none;
 }
