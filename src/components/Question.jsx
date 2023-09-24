@@ -19,8 +19,7 @@ const Question = () => {
     return (
         <div id="question">
             <p>
-                Pergunta {quizState.currentQuestion + 1} de{' '}
-                {quizState.questions.length}
+                Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
             </p>
             <h2>{currentQuestion.question}</h2>
             <div id="options-container">
