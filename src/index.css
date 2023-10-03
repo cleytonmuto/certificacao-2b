@@ -1,15 +1,15 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #CAF0F8;
 }
 
 body,
 html {
     min-height: 100vh;
     height: 100%;
-    background-color: #1c1c1c;
+    background-color: #03045E;
 }
 
 img {
@@ -23,8 +23,8 @@ button {
     padding: 0.8rem 1.5rem;
     background: linear-gradient(
         90deg,
-        rgba(132, 53, 222, 1) 0%,
-        rgba(184, 84, 232, 1) 100%
+        rgba(0, 180, 216, 1) 0%,
+        rgba(144, 224, 239, 1) 100%
     );
     border-radius: 3rem;
     border: none;
@@ -33,7 +33,7 @@ button {
 button:hover {
     background: linear-gradient(
         90deg,
-        rgba(184, 84, 232, 1) 0%,
-        rgba(132, 53, 222, 1) 100%
+        rgba(144, 224, 239, 1) 0%,
+        rgba(0, 180, 216, 1) 100%
     );
 }
