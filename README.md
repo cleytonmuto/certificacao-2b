@@ -21,10 +21,13 @@ Tecnologias utilizadas: HTML + CSS + Javascript + React
 Site em produção: https://certificacao-2b.vercel.app/
 
 ---
-![images](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/d24d85e8-04d0-43fb-8452-f01188cd003e)
+![quizgame1](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/067c34ca-1ea6-4cf4-bb4e-074ff1d5e6a3)
 
 ---
-![images](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/096f8ada-db67-4ba2-b0e2-bbdae73ad56d)
+![quizgame2](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/57668f61-d4c7-41ed-ac4d-65ba2d5131b2)
 
 ---
-![images](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/92ebacdc-df5e-4ffe-8cca-3ebb16dba1f4)
+![quizgame3](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/363e7907-d950-4eb0-8d82-705e74c613fe)
+
+---
+![quizgame4](https://github.com/cleytonmuto/certificacao-2b/assets/12730298/ba40d7c1-1f76-40d6-b144-1d41d2e25224)
