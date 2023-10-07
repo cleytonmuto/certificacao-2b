@@ -1,9 +1,9 @@
-import { useContext } from 'react';
-import { QuizContext } from '../context/quiz';
+import { useContext } from "react";
+import { QuizContext } from "../../context/quiz";
 
-import Option from './Option';
+import Option from "../Option/Option";
 
-import './Question.css';
+import "./Question.css";
 
 const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
@@ -11,8 +11,8 @@ const Question = () => {
 
   const onSelectOption = (option) => {
     dispatch({
-      type: 'CHECK_ANSWER',
-      payload: { answer: currentQuestion.answer, option }
+      type: "CHECK_ANSWER",
+      payload: { answer: currentQuestion.answer, option },
     });
   };
 
@@ -36,18 +36,18 @@ const Question = () => {
       {!quizState.answerSelected && !quizState.help && (
         <>
           {currentQuestion.tip && (
-            <button onClick={() => dispatch({ type: 'SHOW_TIP' })}>Dica</button>
+            <button onClick={() => dispatch({ type: "SHOW_TIP" })}>Dica</button>
           )}
-          <button onClick={() => dispatch({ type: 'REMOVE_OPTION' })}>
+          <button onClick={() => dispatch({ type: "REMOVE_OPTION" })}>
             Excluir uma
           </button>
         </>
       )}
-      {!quizState.answerSelected && quizState.help === 'tip' && (
+      {!quizState.answerSelected && quizState.help === "tip" && (
         <p>{currentQuestion.tip}</p>
       )}
       {quizState.answerSelected && (
-        <button onClick={() => dispatch({ type: 'CHANGE_QUESTION' })}>
+        <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })}>
           Continuar
         </button>
       )}
