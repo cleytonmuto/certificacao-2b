@@ -19,6 +19,7 @@ img {
 button {
     font-weight: bold;
     font-size: 100%;
+    color: black;
     cursor: pointer;
     padding: 0.8rem 1.5rem;
     background: linear-gradient(
