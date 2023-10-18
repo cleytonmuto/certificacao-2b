@@ -19,14 +19,10 @@ img {
 button {
     font-weight: bold;
     font-size: 100%;
-    color: black;
+    color: #6272A4;
     cursor: pointer;
     padding: 0.8rem 1.5rem;
-    background: linear-gradient(
-        90deg,
-        rgba(0, 180, 216, 1) 0%,
-        rgba(144, 224, 239, 1) 100%
-    );
+    background: #8BE9FD
     border-radius: 3rem;
     border: none;
 }
