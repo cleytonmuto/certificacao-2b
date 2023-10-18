@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #6272A4;
+    color: #CAF0F8;
 }
 
 body,
@@ -19,16 +19,25 @@ img {
 button {
     font-weight: bold;
     font-size: 100%;
-    color: #6272A4;
+    color: black;
     cursor: pointer;
     padding: 0.8rem 1.5rem;
-    background: #8BE9FD
+    background: linear-gradient(
+        90deg,
+        rgba(0, 180, 216, 1) 0%,
+        rgba(144, 224, 239, 1) 100%
+    );
     border-radius: 3rem;
     border: none;
 }
 
 button:hover {
     background: linear-gradient(
+        90deg,
+        rgba(144, 224, 239, 1) 0%,
+        rgba(0, 180, 216, 1) 100%
+    );
+}
         90deg,
         rgba(144, 224, 239, 1) 0%,
         rgba(0, 180, 216, 1) 100%
